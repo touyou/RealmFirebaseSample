@@ -40,10 +40,11 @@ service firebase.storage {
 
 key=userID<br>
 |- key=childByAutoID<br>
-    |- date ... 日付<br>
-    |- imagePath ... 画像のダウンロードリンク<br>
-    |- text ... 本文<br>
-    |- user ... userID<br>
+|  |- date ... 日付<br>
+|   |- imagePath ... 画像のダウンロードリンク<br>
+|   |- text ... 本文<br>
+|   |- user ... userID<br>
+|- key......
 
 ### Storage
 
