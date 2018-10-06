@@ -38,12 +38,12 @@ service firebase.storage {
 
 ### Database
 
-key=userID
-|- key=childByAutoID
-    |- date ... 日付
-    |- imagePath ... 画像のダウンロードリンク
-    |- text ... 本文
-    |- user ... userID
+key=userID<br>
+|- key=childByAutoID<br>
+    |- date ... 日付<br>
+    |- imagePath ... 画像のダウンロードリンク<br>
+    |- text ... 本文<br>
+    |- user ... userID<br>
 
 ### Storage
 
