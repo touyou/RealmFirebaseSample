@@ -77,7 +77,6 @@ class PostViewController: UIViewController {
                 }
 
                 storageRoot.child("images").child(imageName).downloadURL(completion: { url, error in
-
                     databaseRoot.child((Auth.auth().currentUser?.uid)!).childByAutoId().setValue([
                         "user": (Auth.auth().currentUser?.uid)!,
                         "text": post.text,
